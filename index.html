@@ -11,7 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" >
+        <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header class="klasadlaheadera">
@@ -36,7 +37,7 @@
         <section class="sectionone">
         <div class="container">
             <h1 class="naglowekhtml">Effective Solutions for Your Business</h1>
-            <button class="buttonone" type="button">Order Service</button>
+            <button class="buttonone" data-modal-open type="button">Order Service</button>
         </div>
         </section>
         <section class="section">
@@ -342,6 +343,15 @@
         </div>
         </div>
     </footer>
+    <div class="jscss is-hidden" data-modal>
+        <div class="cssjs2">
+            <button type="button" class="buttonjs" data-modal-close></button>
+            <svg>
+                <use href=""></use>
+            </svg>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
