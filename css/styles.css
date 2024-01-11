@@ -17,7 +17,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition background-color: 50ms;
+    transition: background-color 50ms;
 }
 .fourlink:hover {
     background-color: #404bbf;
